@@ -127,7 +127,7 @@ client.on("interactionCreate", async (interaction) => {
       .setColor("#2b8eff")
       .setTitle("📦 MENU ĐƠN HÀNG")
       .setDescription("Nhấn nút bên dưới để tạo đơn hàng mới.")
-      .setFooter({ text: "Mây Chill Store" });
+      .setFooter({ text: "TCF SHOP 🐧" });
 
     const row = new ActionRowBuilder().addComponents(
       new ButtonBuilder()
